@@ -1,0 +1,7 @@
+Script started on 2021-08-24 21:23:58+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="110" LINES="30"]
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES
+6c0e1f2edf1b   nginx     "/docker-entrypoint.…"   5 minutes ago   Up 5 minutes               80/tcp    kind_nightingale
+0559ad72e754   nginx     "/docker-entrypoint.…"   5 minutes ago   Exited (0) 5 minutes ago             adoring_golick
+de01c46fd1e8   nginx     "/docker-entrypoint.…"   9 minutes ago   Exited (0) 5 minutes ago             trusting_shamir
+
+Script done on 2021-08-24 21:23:58+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,15 @@
+Script started on 2021-08-31 13:56:31+03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="209" LINES="52"]
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ exit
+
+Script done on 2021-08-31 13:56:43+03:00 [COMMAND_EXIT_CODE="0"]

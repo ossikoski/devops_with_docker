@@ -1,0 +1,11 @@
+Script started on 2021-08-24 21:28:21+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="110" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/yliopisto_local/devops_with_docker/part1[00m$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/yliopisto_local/devops_with_docker/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/yliopisto_local/devops_with_docker/part1[00m$ exit
+
+Script done on 2021-08-24 21:28:37+03:00 [COMMAND_EXIT_CODE="0"]

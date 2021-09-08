@@ -1,0 +1,28 @@
+Script started on 2021-09-08 21:26:48+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="209" LINES="52"]
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ docker image ls
+REPOSITORY                          TAG       IMAGE ID       CREATED        SIZE
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   5 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   5 months ago   15.7MB
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ docker riu[K[Kun -d -it fd
+834b92f6ea31dae4fa346cd4eb392a806ec8b9036335ef44b8ba23fc5d50a971
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ docker [K container ls
+CONTAINER ID   IMAGE     COMMAND                 CREATED         STATUS         PORTS     NAMES
+834b92f6ea31   fd        "/usr/src/app/server"   6 seconds ago   Up 4 seconds             vibrant_cannon
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ docker exec -it 834 sh
+/usr/src/app # [6n/usr/src/app # [Jtail -f ./text.log
+2021-09-08 18:27:51 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-09-08 18:27:53 +0000 UTC
+2021-09-08 18:27:55 +0000 UTC
+2021-09-08 18:27:57 +0000 UTC
+2021-09-08 18:27:59 +0000 UTC
+2021-09-08 18:28:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-09-08 18:28:03 +0000 UTC
+2021-09-08 18:28:05 +0000 UTC
+2021-09-08 18:28:07 +0000 UTC
+^C
+/usr/src/app # [6n
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1[00m$ exit
+
+Script done on 2021-09-08 21:28:11+03:00 [COMMAND_EXIT_CODE="130"]
