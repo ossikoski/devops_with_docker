@@ -1,0 +1,16 @@
+Script started on 2021-09-12 14:23:01+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="209" LINES="52"]
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[00m$ touch text.log
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[00m$ docker run -d -v "[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch text.logdocker container ls[1Ptail -f ./text.logdocker run -d -v "$(pwd)/text.log://usr/src/app/text.log" devopsdockeruh/simple-web-service
+9ada5aa838d85002d540bf977442295318a4027f0e8b829861356015fd5397bb
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[00m$ docker container ls
+CONTAINER ID   IMAGE                               COMMAND                 CREATED          STATUS          PORTS     NAMES
+9ada5aa838d8   devopsdockeruh/simple-web-service   "/usr/src/app/server"   24 seconds ago   Up 23 seconds             boring_galileo
+3b305a9119ec   devopsdockeruh/simple-web-service   "/usr/src/app/server"   5 minutes ago    Up 5 minutes              priceless_northcutt
+271a731875c4   devopsdockeruh/simple-web-service   "/usr/src/app/server"   6 minutes ago    Up 6 minutes              ecstatic_borg
+60b25c81bedd   devopsdockeruh/simple-web-service   "/usr/src/app/server"   12 minutes ago   Up 11 minutes             hopeful_mendeleev
+e29383de278c   99f                                 "/usr/src/app/server"   20 minutes ago   Up 20 minutes             quirky_bell
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[00m$ docker kill 9a
+9a
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part1/1.9[00m$ docker [K[K[K[K[K[K[Kexit
+
+Script done on 2021-09-12 14:24:34+03:00 [COMMAND_EXIT_CODE="0"]
