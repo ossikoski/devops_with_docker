@@ -1,0 +1,11 @@
+Script started on 2021-11-03 14:33:40+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="115" LINES="41"]
+]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part2/2.5/scaling-exercise[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part2/2.5/scaling-exercise[00m$ docker-compose up - d --scale compute=3
+Creating network "scaling-exercise_default" with the default driver
+Creating calculator ... 
+Creating scaling-exercise_compute_1 ... 
+Creating scaling-exercise_compute_2 ... 
+Creating scaling-exercise_compute_3 ... 
+Creating load-balancer              ... 
+[3A[2KCreating scaling-exercise_compute_2 ... [32mdone[0m[3B[2A[2KCreating scaling-exercise_compute_3 ... [32mdone[0m[2B[4A[2KCreating scaling-exercise_compute_1 ... [32mdone[0m[4B[1A[2KCreating load-balancer              ... [32mdone[0m[1B[5A[2KCreating calculator                 ... [32mdone[0m[5B]0;ossikoski@DESKTOP-9PRODKU: /mnt/d/Yliopisto_local/devops_with_docker/part2/2.5/scaling-exercise[01;32mossikoski@DESKTOP-9PRODKU[00m:[01;34m/mnt/d/Yliopisto_local/devops_with_docker/part2/2.5/scaling-exercise[00m$ exit
+
+Script done on 2021-11-03 14:34:48+02:00 [COMMAND_EXIT_CODE="0"]
