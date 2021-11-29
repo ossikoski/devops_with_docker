@@ -1,0 +1,6 @@
+Didn't work with original Dockerfile: code 403 forbidden
+
+Change in backend Dockerfile and build again:
+ENV REQUEST_ORIGIN=http://localhost
+(was localhost:5000)
+
